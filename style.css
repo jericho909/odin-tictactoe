@@ -1,8 +1,34 @@
 /* style.css */
 
 /* Add basic styling to the game board */
+h1 {
+  text-align: center;
+}
+
+.container {
+ display: flex;
+}
+
+#lower-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#inputs {
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+}
+
 #game-board {
-    display: grid;
+    display: none;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(3, 100px); /* Adjust the size as needed */
     grid-gap: 5px; /* Gap between cells */
     margin-top: 20px;

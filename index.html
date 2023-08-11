@@ -9,20 +9,28 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <div id="game-board">
-        <div id="cell-0" class="cell"></div>
-        <div id="cell-1" class="cell"></div>
-        <div id="cell-2" class="cell"></div>
-        <div id="cell-3" class="cell"></div>
-        <div id="cell-4" class="cell"></div>
-        <div id="cell-5" class="cell"></div>
-        <div id="cell-6" class="cell"></div>
-        <div id="cell-7" class="cell"></div>
-        <div id="cell-8" class="cell"></div>
+    <div id="container">
+        <div id="game-board">
+            <div id="cell-0" class="cell"></div>
+            <div id="cell-1" class="cell"></div>
+            <div id="cell-2" class="cell"></div>
+            <div id="cell-3" class="cell"></div>
+            <div id="cell-4" class="cell"></div>
+            <div id="cell-5" class="cell"></div>
+            <div id="cell-6" class="cell"></div>
+            <div id="cell-7" class="cell"></div>
+            <div id="cell-8" class="cell"></div>
+        </div>
     </div>
-    <div id="buttons">
-        <button class="button" id="start-button">Start</button>
-        <button class="button" id="restart-button">Restart</button>
+    <div id="message" style="text-align: center; margin-top: 25px;"></div>
+    <div id="lower-container">
+        <div id="inputs">
+            <input type="text" id="player1-name" class="choices" placeholder="Player 1">
+            <input type="text" id="player2-name" class="choices" placeholder="Player 2">
+        </div>
+        <div id="buttons">
+            <button class="button" id="start-button">Start</button>
+        </div>
     </div>
 </body>
 </html>
